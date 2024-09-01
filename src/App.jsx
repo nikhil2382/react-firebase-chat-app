@@ -3,7 +3,7 @@ import { UnauthenticatedApp } from './components/UnauthenticatedApp';
 import { useAuth } from './hooks/useAuth';
 import './App.css';
 
-function App() {
+const App = () => {
     const { user } = useAuth();
 
     return (
